@@ -20,6 +20,9 @@ export default function Home() {
                 <DeployButton />
               </div>
             </div>
+            <Suspense>
+              <AuthButton />
+            </Suspense>
           </div>
         </nav>
         <div className="flex-1 flex flex-col gap-20 max-w-5xl p-5">
@@ -30,7 +33,7 @@ export default function Home() {
             <Link
               href={"/notes"}
               className="text-primary hover:text-foreground"
-              >
+            >
               <p>go to the notes page</p>
             </Link>
           </main>

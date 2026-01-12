@@ -20,7 +20,12 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"],
+      "#api/*": ["./src/api/*"],
+      "#app/*": ["./src/app/*"],
+      "#assets/*": ["./src/assets/*"],
+      "#utils/*": ["./src/utils/*"],
+      "#/*": ["./src/*"]
     }
   },
   "include": [
